@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital@1&family=Roboto:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:'Montserrat';    
+}
+i{
+    color: #717171b0;
+}
+.top{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+#house{
+    background-color: #4F46E5;
+    padding: .8vw .8vw;
+    border-radius: 10px;
+    color: white;
+}
+.top img{
+     width: 80%;
+
+}
+.top ul li{
+    display: block;
+}
+.sidebar{
+     width: 4rem;
+     height: 100vh;
+     background-color: white;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 99;
+     padding: 10vw 0;
+}
+ul{
+   display: block;
+   position: relative;
+   text-align: center;
+   margin-top: 2vw;
+    
+}
+ul li{
+    display: block;
+}
+.bttom{
+    position: absolute;
+    bottom: 0;
+    left:30%;
+    padding-bottom: 2vw;
+}
+.bttom ul li{
+    display: block;
+}
+.main{
+    width: calc(100% -4rem);
+    height: 100%;
+    position: relative;
+    display: flex;
+    
+    
+}
+
+.left{
+    width:25vw;
+    height: 100vh;
+    background-color: #F3F4F6;
+    padding: 2vw 6.4vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.ltop{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.ltop img{
+     width: 80px;
+     height: 80px;
+    border-radius: 50%;
+
+}
+.ltop h2{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.ltop h3{
+    font-weight:600;
+}
+
+
+.left h1{
+    
+    margin-left: 4rem;
+}
+.lmid{
+     margin-top: 3vw;
+}
+.lmid h3{
+    margin-bottom: 1.2vw;
+    text-transform: capitalize;
+    font-size: 1vw;
+}
+.lmid h2{
+    font-size: 1.9vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.lmid h4{
+    font-weight:600;
+     color: #9CA3AF;
+}
+.text{
+     margin-top: 1vw;
+}
+.text h4{
+ margin-bottom: 7px;
+ font-size: 1.1vw;
+ color: black;
+     
+}
+.text h5{
+     font-size: .8vw;
+     color: #9CA3AF;
+}
+ button{
+    background-color: #4F46E5;
+    margin-top: 15px;
+    padding: .7vw 1.5vw;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.lbotom{
+    margin-top: 2vw;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9CA3AF;
+     
+}
+ h3{
+     font-size: .9vw;
+
+}
+ h4{
+    margin-top: 10px;
+    color: #9CA3AF;
+    margin-bottom: 10px;
+}
+
+ h3{
+     font-size: .8vw;
+     
+}
+
+
+.right{
+    width: 50vw;
+    min-height: 100vh;
+    padding: 2.5vw 2.5vw;
+    
+}
+.rightflex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ricon{
+     margin-top: 2vw;  
+}
+
+.ricon h3{
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.ricon h6{
+     font-size: .8vw;
+     color: #9CA3AF;
+}
+.line{
+     width: 90px;
+     height: 2px;
+     background-color: blue;
+     margin-top: 12px;
+}
+
+.graph{
+    margin-top: 2vw;
+    width: 600px;
+    height: 290px;
+    background-color: transparent;
+}
+.graph h2{
+       font-size: 1vw;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+       
+}
+#myChart{
+    padding-top: 2vw;
+    width: 100%;
+    padding-bottom: 2vw;
+}
+.ftextgraph{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .7vw;
+}
+
+.rnavr{
+    display: flex;
+    align-items: center;
+}
+.first{   
+     display: flex;
+     align-items: center;
+     gap: 5px;
+    
+}
+.blue{
+    width: 10px;
+    height: 7px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+
+
+#textrigth{
+    margin-top: 2vw;
+    font-size: .9vw;
+    font-weight: 300;
+}
+#texth5{
+    font-size: .7vw;
+    color: #6c6e6cfa;
+    font-weight: 100;
+}
+.rbottom{
+     display: flex;
+      align-items: center ;
+       gap: 15vw;
+       margin-top: 2vw;
+}
+.rnav h4{
+    border-bottom: 1px solid #6c6e6cfa;
+    color: rgb(85, 84, 84);
+    font-size: .6vw;
+}
+.rnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid{
+    width: 26vw;
+    height: 100vh;
+    background-color: #fff;
+}
+.last{
+     width: 250px;
+     height: 350px;
+     background-color: #F3F4F6;
+     margin-top: 2vw;
+     padding: 1vw 2vw;
+}
+.loader{
+    border-bottom: 1px solid #daddda;
+    padding-bottom: 1.5vw;
+}
+.loader h4{
+font-size: .8vw;
+font-weight: 100;
+
+}
+.loader span{
+    margin: 0px;
+    background-color: #c7cacf;
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 3px;
+    
+}
+.alltext{
+    margin-top: 1.6vw;
+}
+.loadertext {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #87888a;
+}
+.loadertext h3{
+     margin-bottom: 5px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    padding: .6vw 2.8vw;
+}
+a{
+    font-size: .7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+.boottom{
+        margin-top: 40px; 
+    border-left: 1px solid blue;
+    padding: 0vw  1vw;
+}
+.boottom h3{
+    font-size: .7vw;
+    color: #87888a;
+}
+.boottom h4{
+    font-size: .7vw;
+    color: #87888a;
+}
+.boottom a{
+     font-size: .6vw;
+     margin-left: -100px;
+}
+
+
+@media (max-width:600px) {
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        height: 4rem; 
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .top{
+         display: block;
+    }
+    i{
+        font-size: 5vw;
+    }
+    .top img{
+        display: none;
+
+    }
+    .top i{
+         display: none;
+    }
+    .bttom{
+         display: none;
+    }
+    ul li{
+          
+     display: block;
+     
+    }
+    .main{
+         flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .right{
+        width: 100%;
+        min-height: 100%;
+        background-color: white;
+        margin-top: 7vw;
+    }
+    
+    .rightt{
+        padding: 0 4vw;
+    }
+    .rightt h3{
+        font-size: 2.6vw;
+        font-weight: 200;
+    }
+    .right h2{
+         font-size: 3.7vw;
+         margin-top: 7px;
+         font-weight: 100;
+    }
+    .rightflex{
+        padding: 0 4vw;
+
+    }
+    .rightflex{
+       margin-top: 25px;
+    }
+  #line{
+     width: 100%;
+  }
+    .ricon h3{
+        font-size: 4vw;
+        color: black;
+    }
+    .ricon h6{
+        font-size: 2.5vw;
+        font-weight: 100;
+    }
+    .graph{
+        width: 100%;
+    }
+    .graph h2{
+        padding: 0 4vw;
+        margin-top: 3vw;
+    }
+    .first{
+        padding: 0 4vw;
+    }
+    .first h5,span,.blue{
+        display: block;
+        align-items: center;
+       margin: 5px;       
+    }
+    .blue{
+         display: none;
+    }
+    #textrigth{
+        margin-top: 4vw;
+        font-size: 3vw;
+        padding: 0 3vw;
+        color: black;
+    }
+ 
+    #texth5{
+        font-size: 2vw;
+        padding: 0 3vw;
+        font-weight: 100;
+    }
+    .rbottom{
+          display: flex;
+          width: 100%;
+          flex-direction: column;  
+          margin-top: 10px;
+
+    }
+.rnav{
+    width: 50%;
+    
+}
+.rnavr{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rnav h4{
+    padding: 2vw;
+
+}
+.bttominright{
+    width: 100%;
+    min-height: inherit;
+}
+
+h4 ,span{
+    display: flex;
+    align-items: center;
+}
+ .rnav h4{
+    color: black;
+ }
+ .rnav span{
+    color:rgb(85, 84, 84) ;
+ }
+.rnav h4{
+    font-size: 2vw;
+     margin: 10px;
+}
+
+.onegrpah{
+    display: inline-block;
+    align-items: center;
+}
+
+
+
+
+
+   .mid{
+        width: 100%;
+    }
+   .ltop{
+    background-color: white;
+    margin-top: 10vw;
+   }
+   .lmid{
+    background-color: #F3F4F6;
+    border-radius: 20px;
+    padding: 2vw 2.5vw;
+   }
+.lmid h3{
+     font-size: 3vw;
+}
+.lmid h2{
+      font-size: 5.5vw;
+      margin-top: 15px;
+}
+.lmid h4{
+    margin-top: 8px;
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+
+.text{
+   
+}
+.text h4{
+     font-size: 4vw;
+}
+.text h5{
+     font-size: 3vw;
+}
+
+button{
+     width: 100%;
+     padding: 2vw 2vw;
+}
+.lnext{
+    background-color: #F3F4F6;
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    margin-top: 3vw;
+}
+
+.lbotom h3{
+    font-size: 3vw;
+}
+.lbotom h4{
+     font-size: 2.5vw;
+}
+.mid{
+    width: 100%;
+}
+.last{
+     width: 100%;
+     margin-top: 35vw;
+     padding: 2vw 4vw;
+}
+.last h3{
+    font-size: 3.5vw;
+}
+.loader h4{
+    font-size: 2.9vw;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+}
+.loader span{
+     width: 30px;
+}
+.loadertext h3{
+     font-size: 2.5vw;
+     font-weight: 100;
+}
+.btn button{
+    padding: 3vw 2vw;
+ }
+.boottom a{
+     display: none;
+}
+
+
+}
